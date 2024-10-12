@@ -12,7 +12,7 @@ import React from "react";
 
     const SecondsCounter = (props) => {
         return ( 
-            <div className="d-flex mb-2 bg-primary text-white">
+            <div className="d-flex justify-content-center bg-black text-white pt-2 mb-3">
                 <Card digito={<i className="far fa-clock"></i>}/>
                 <Card digito={Math.floor (props.counter/10000 %10)}/>
                 <Card digito={Math.floor (props.counter/10000 %10)}/>

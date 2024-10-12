@@ -28,7 +28,7 @@ const renderSecondsCounter = () => {
     
     app.render(<>
         <SecondsCounter counter={seconds} />
-        <div className="ml-3 .bg-info-subtle">
+        <div className="ml-3 .bg-info-subtle d-flex flex-column justify-content-start align-items-center">
 
             <input id="Counting" className="" onChange={(event) => {
                 seconds = event.target.value;
